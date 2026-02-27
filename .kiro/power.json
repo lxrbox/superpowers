@@ -1,0 +1,98 @@
+{
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "description": "完整的软件开发工作流系统：TDD、系统化调试、协作模式和经过验证的技术",
+  "version": "4.3.1",
+  "author": {
+    "name": "Jesse Vincent",
+    "email": "jesse@fsck.com"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "best-practices",
+    "workflows",
+    "测试驱动开发",
+    "调试",
+    "协作"
+  ],
+  "steering": {
+    "files": [
+      {
+        "path": "skills/brainstorming/SKILL.md",
+        "inclusion": "auto",
+        "description": "头脑风暴技能 - 在任何创造性工作前使用"
+      },
+      {
+        "path": "skills/test-driven-development/SKILL.md",
+        "inclusion": "auto",
+        "description": "测试驱动开发技能 - RED-GREEN-REFACTOR 循环"
+      },
+      {
+        "path": "skills/systematic-debugging/SKILL.md",
+        "inclusion": "auto",
+        "description": "系统化调试技能 - 4 阶段根因分析流程"
+      },
+      {
+        "path": "skills/writing-plans/SKILL.md",
+        "inclusion": "auto",
+        "description": "编写计划技能 - 创建详细实现计划"
+      },
+      {
+        "path": "skills/executing-plans/SKILL.md",
+        "inclusion": "auto",
+        "description": "执行计划技能 - 带检查点的批量执行"
+      },
+      {
+        "path": "skills/subagent-driven-development/SKILL.md",
+        "inclusion": "auto",
+        "description": "子代理驱动开发 - 快速迭代与两阶段审查"
+      },
+      {
+        "path": "skills/requesting-code-review/SKILL.md",
+        "inclusion": "auto",
+        "description": "请求代码审查技能 - 预审查清单"
+      },
+      {
+        "path": "skills/receiving-code-review/SKILL.md",
+        "inclusion": "auto",
+        "description": "接收代码审查技能 - 响应反馈"
+      },
+      {
+        "path": "skills/using-git-worktrees/SKILL.md",
+        "inclusion": "auto",
+        "description": "使用 Git 工作树技能 - 并行开发分支"
+      },
+      {
+        "path": "skills/finishing-a-development-branch/SKILL.md",
+        "inclusion": "auto",
+        "description": "完成开发分支技能 - 合并/PR 决策工作流"
+      },
+      {
+        "path": "skills/verification-before-completion/SKILL.md",
+        "inclusion": "auto",
+        "description": "完成前验证技能 - 确保问题真正修复"
+      },
+      {
+        "path": "skills/dispatching-parallel-agents/SKILL.md",
+        "inclusion": "auto",
+        "description": "分派并行代理技能 - 并发子代理工作流"
+      },
+      {
+        "path": "skills/writing-skills/SKILL.md",
+        "inclusion": "manual",
+        "description": "编写技能技能 - 遵循最佳实践创建新技能"
+      },
+      {
+        "path": "skills/using-superpowers/SKILL.md",
+        "inclusion": "manual",
+        "description": "使用 Superpowers - 技能系统介绍"
+      }
+    ]
+  }
+}

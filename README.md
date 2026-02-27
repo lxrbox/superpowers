@@ -26,8 +26,20 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex, OpenCode, and Kiro require manual setup.
 
+### Kiro (via Powers)
+
+Clone the repository to your Kiro Powers directory:
+
+```bash
+mkdir -p ~/.kiro/powers
+git clone https://github.com/obra/superpowers.git ~/.kiro/powers/superpowers
+```
+
+Then restart Kiro or reload Powers. The skills will automatically activate based on context.
+
+**Detailed docs:** [.kiro/INSTALL.md](.kiro/INSTALL.md)
 
 ### Claude Code (via Plugin Marketplace)
 
